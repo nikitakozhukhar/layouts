@@ -1,0 +1,53 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.shopCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30%;
+  padding: 20px 0px;
+  margin-bottom: 80px;
+  background-color: rgb(245, 242, 242);
+  box-shadow: 10px 10px 10px gray, -10px -10px 10px gray;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.name {
+  padding: 5px;
+}
+
+.color {
+  padding: 5px;
+}
+img {
+  padding: 5px;
+  margin: 0px 10px;
+}
+
+.price {
+  padding-top: 5px;
+}
+
+.priceContainer {
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+  color: red;
+}
+
+.addToCart {
+  padding: 8px 16px;
+  border: 1px solid red;
+  border-radius: 20px;
+  
+}
+.addToCart:hover {
+  cursor: pointer;
+}
